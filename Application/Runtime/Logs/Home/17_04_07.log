@@ -1,0 +1,328 @@
+[ 2017-04-07T08:20:12+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://rm-bp10913qhycd944jn.mysql.rds.aliyuncs.com:3306) D:\phpStudy\WWW\lyg\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-04-07T08:52:49+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1491526369 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1491526369 AND `end_time` < 1491526369 ORDER BY create_time  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1491526369 ORDER BY create_time  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1491526369 AND `end_time` > 1491526369 ORDER BY create_time  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T08:57:18+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '17' AND `winning_time` < 1491526638 ORDER BY create_time LIMIT 5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-07T08:59:30+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '27' AND `winning_time` < 1491526770 ORDER BY create_time LIMIT 5   [ RunTime:0.0030s ]
+
+[ 2017-04-07T08:59:57+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1491526797 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1491526797 AND `end_time` < 1491526797 ORDER BY create_time  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1491526797 ORDER BY create_time  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1491526797 AND `end_time` > 1491526797 ORDER BY create_time  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T09:00:02+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '17' AND `winning_time` < 1491526802 ORDER BY create_time LIMIT 5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-07T09:00:10+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '27' AND `winning_time` < 1491526809 ORDER BY create_time LIMIT 5   [ RunTime:0.0010s ]
+
+[ 2017-04-07T09:00:48+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T09:06:47+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1491527207 ORDER BY create_time LIMIT 2   [ RunTime:0.0050s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1491527207 AND `end_time` < 1491527207 ORDER BY create_time  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1491527207 ORDER BY create_time  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1491527207 AND `end_time` > 1491527207 ORDER BY create_time  [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T09:06:49+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '23' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '23' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 23 D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 175 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T15:15:13+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '23' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '23' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-07T15:15:15+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1491549315 ORDER BY create_time LIMIT 2   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1491549315 AND `end_time` < 1491549315 ORDER BY create_time  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1491549315 ORDER BY create_time  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1491549315 AND `end_time` > 1491549315 ORDER BY create_time  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-07T15:15:29+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '17' AND `winning_time` < 1491549329 ORDER BY create_time LIMIT 5   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-04-07T15:17:16+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://rm-bp10913qhycd944jn.mysql.rds.aliyuncs.com:3306) D:\phpStudy\WWW\lyg\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-04-07T15:46:25+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1491551185 ORDER BY create_time LIMIT 2   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1491551185 AND `end_time` < 1491551185 ORDER BY create_time  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1491551185 ORDER BY create_time  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1491551185 AND `end_time` > 1491551185 ORDER BY create_time  [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 94 Ë°å.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\Application\Home\Controller\IndexController.class.php Á¨¨ 99 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

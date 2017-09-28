@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no,width=device-width"/>
+	<meta name="description" content="重大消息:大奖免费抽啦,我刚参与了0元抽{$activity_data.product_name}活动，每天0元抽免费中大奖，手机、千足金、饰品等送不停，不要钱白送啦、不要钱白送啦、不要钱白送啦，重要的事情要说三遍。你也赶紧来试试吧！！！" />
+	<meta name="share-title" content="0元中大奖，手机数码潮品爆款新款通通0元抽奖啦！" />
+	<meta name="share-image" content="{$activity_data.images}"/>
+    <meta name="share-link" content="http://www.loyoubao.com/lyg/Home/Index/purchase.html?activity_id={$activity_data['id']}" />
+	<title>0元抽</title>
+	<link rel="stylesheet" type="text/css" href="__ROOT__/Public/home/css/common.css">
+	<link rel="stylesheet" type="text/css" href="__ROOT__/Public/home/css/iconfont.css">
+	<link href="/static/css/carrotui/carrot.ui.css" rel="stylesheet" />
+	<link href="/static/css/carrotui/carrot.ui.theme.css" rel="stylesheet" />
+	<link href="/static/css/carrotui/iconfont.css" rel="stylesheet" />
+	<!--<script src="/static/script/jquery-1.9.1.min.js" type="text/javascript"></script>-->
+	<script src="__ROOT__/Public/home/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="/static/script/carrot.ui.js" type="text/javascript"></script>
+	<script type="text/javascript" src="__ROOT__/Public/home/js/count_down.js"></script>
+	<style>
+		.hidden{display: none}
+	</style>
+</head>
+<body class="cui-has-tabs">
+<script type="text/javascript">
+	CarrotWechat.setShare(function () {
+		var activity_id = $(".share").attr('activity_id');
+		$.ajax("{:u('Index/transpond')}",{
+			data:{activity_id : activity_id},
+			success : function(data){
+				if (data["status"]) {
+					$.ajax("{:u('Index/is_draw')}",{
+						data:{activity_id : activity_id},
+						success : function (draw_surplus_num) {
+							if (draw_surplus_num > 0) {
+								get_code_number();
+							}
+						}
+					})
+				}
+			}
+		});
+		$(".mask_layer").hide();
+		$(".cite").hide();
+	});
+</script>
+<div class="main">
+	<div class="body">
+		<div class="ongoing">
+			<p class="date_period" id="date_end"></p>
+			<div class="content">
+				<div class="shop_content">
+					<div class="shop">
+						<img class="shop_image" src="{$activity_data.images}">
+						<span class="sign"></span>
+					</div>
+					<div class="shop_title">
+						<p class="desc"><span class="amount">第{$activity_data.id}期</span><span class="title_detail">{$activity_data.product_name}</span></p>
+						<p class="price" id="price">市场价:<span>￥{$activity_data.market_price}</span></p>
+						<p class="price" id="date">开奖时间：<span>{:date('Y-m-d H:i:s',$activity_data['winning_time'])}</span></p>
+						<p class="price" id="finished_amount">
+							<if condition="$activity_data.now_code lt 1">
+								<span >0</span>人次已参与
+							<else />
+								<span >{$activity_data.now_code}</span>人次已参与
+							</if>
+
+						</p>
+					</div>
+				</div>
+			</div>
+			<if condition="$activity_data.winning_time lt $now_time">
+				<if condition="$activity_data.winning_code eq '' ">
+					<div class="result">
+						<p class="prompt">活动已结束，一起等待开奖吧</p>
+					</div>
+					<else />
+					<!-- 活动已结束的-->
+					<div class="result">
+						<p class="prompt">活动已结束，中奖号码为</p>
+						<p class="code">{$activity_data.winning_code}</p>
+						<p class="lucky">中奖幸运用户:<span>{$nickname['nickname']}</span></p>
+						<p class="notify">中奖用户尽快提交收货信息，如有疑问请联系客服。<br/>中奖用户可在“我的”-“我的订单”里查看</p>
+						<notempty name="user_draw_status">
+							<a href="http://sso.loyoubao.com/users/orders.html" class="submit_address" >提交中奖收货信息</a>
+						</notempty>
+					</div>
+				</if>
+				<!-- 等待开奖中-->
+				<elseif condition="($activity_data.winning_time gt $now_time) and ($activity_data.end_time lt $now_time)"  />
+				<div class="result">
+					<p class="prompt">活动已结束，一起等待开奖吧</p>
+				</div>
+				<!-- 明日预告-->
+				<elseif condition="$activity_data.start_time gt $now_time" />
+				<div class="upcoming">
+					<span>{:date('Y-m-d H:i:s',$activity_data['start_time'])}准时开始</span>
+				</div>
+				<elseif condition="($activity_data.end_time gt $now_time) and ($activity_data.start_time lt $now_time)" />
+
+				<!-- 正在进行中的-->
+				<div class="operate">
+					<a id="{$activity_data.id}" class="participate" title="立即0元抽">立即0元抽</a>
+					<a activity_id="{$activity_data.id}" class="share" title="分享给好友">分享给好友</a>
+				</div>
+
+			</if>
+			<if condition="$record_draw neq null">
+				<div class="participation_code">
+					<p class="tips">我的抽奖号码:</p>
+					<volist name="record_draw" id="vo">
+						<span>{$vo}</span>
+					</volist>
+				</div>
+			</if>
+
+			<!--<hr style="border: dashed 1px darkgray">-->
+			<!-- 游戏规则-->
+			<div class="tab_btn"><p class="activity_rules acti" id="activity_rules">活动详情</p><p class="product_desc">商品详情</p></div>
+			<div class="product_intro hidden">
+					{$products['detail']}
+			</div>
+
+			<div class="rules" id="rules">
+				<h5 class="title">活动须知</h5>
+				<div class="content_description">
+					<p>活动时间：<span class="date">{:date('Y-m-d H:i:s',$activity_data['start_time'])}至{:date('Y-m-d H:i:s',$activity_data['end_time'])}</span></p>
+					<p>开奖及中奖公布时间：<span>{:date('Y-m-d H:i:s',$activity_data['winning_time'])}</span></p>
+					<p>中奖公布页面：龙有宝当期的“0元抽”活动页面中。</p>
+				</div>
+				<h5 class="title">活动参与</h5>
+				<div class="content_description">
+					<p>用户通过登录龙有宝，进入“0元抽”活动页面，点击“立即0元抽”，即可活动一个抽奖码，凭此号码参与活动；</p>
+				</div>
+				<h5 class="title">活动细则</h5>
+				<div class="content_description">
+					<p>1.同一期同一用户仅可领取1次抽奖码，用户通过分享本活动后将额外获得1个抽奖码。<p>
+					<p>2.开奖规则：在活动结束时间前的所有参与用户的抽奖号码中随机抽取1个号码为中奖号码并公布在本活动页面里，中奖用户可去“我的订单”查看中奖订单并及时提交收货信息。<p>
+					<p>3.主办方将在开奖后5个工作日内（遇到节假日顺延）通过中奖用户绑定的手机号码核实中奖用户的中奖订单，用户需保证其手机号码真实有效，若开奖10个工作日后，主办方仍无法联系到中奖用户的，视为中奖用户主动放弃本奖品；中奖用户可在“我的”-“我的订单”里查看，如无订单记录表示并未中奖。<p>
+					<p>4.奖品发放：中奖用户尽快在“我的订单”里完善中奖订单的收货信息，主办方将以最快捷的方式发放奖品给中奖用户。<p>
+					<p>5.活动过程中，如用户出现违规行为（包括但不限于作弊、扰乱系统、实施网络攻击），主办方将取消违规用户的中奖资格，并有权终止其参与活动，收回中奖奖品。<p>
+					<p>6.活动期间，如出现不可抗力或情势变更的情况（包括但不限于重大灾害事件、活动受政府机关指令需要停止举办或调整的、活动遭受严重网络攻击或因系统故障需要暂停举办等），主办方依相关法律法规的规定主张免责。<p>
+					<p>7.主办方可以根据本活动的实际举办情况对活动规则进行变动或调整，相关变动或调整将公布在活动页面上，公布后依法生效。<p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="mask_layer"></div>
+<div class="cite"></div>
+<include file="bottom" />
+</body>
+</html>
+<script type="text/javascript">
+	function get_code_number(){
+		$(".participate").removeClass("silent");
+		$(".participate").addClass("act");
+		$(".participate").bind('click',function(){
+			$(".participate").removeClass("act");
+			$(".participate").addClass("silent");
+			$(this).unbind();
+			var activity_id = $(this).attr('id');
+			$.ajax("{:u('Index/get_now_code')}",{
+				data:{activity_id : activity_id},
+				success : function(data){
+					if (data["status"] == true) {
+						location.reload();
+					}else if (data["has_phone"] == 1) {
+						CarrotUI.alert("是否绑定手机", function(){
+							window.open("http://sso.loyoubao.com/users/bind_cellphone.html", '_self');
+						});
+					} else {
+					}
+				}
+			});
+		});
+	}
+		if("{$draw_surplus_num}" > 0 || "{$draw_surplus_num}" == ""){
+			get_code_number();
+		}else{
+			$(".participate").removeClass("act");
+			$(".participate").addClass("silent");
+		}
+	//分享
+	$(".share").on("click",function(){
+		$(".mask_layer").show();
+
+		var userAgent = navigator.userAgent.toLowerCase();
+		if(userAgent.match(/MicroMessenger/i) == "micromessenger") {
+			$(".cite").show();
+			$.ajax({
+				url: "http://sso.loyoubao.cn/wechat/jsapi_config",
+				dataType: 'jsonp',
+				data: {url: window.location.href},
+				success: function(data) {
+					if (data['result']) {
+					}
+				},
+
+			});
+		}else{
+			setTimeout(function(){
+				$(".mask_layer").fadeOut(200,function(){
+					$(this).hide();
+				});
+
+			},2000);
+			CarrotUI.tips("请使用微信浏览器访问。");
+		}
+
+	});
+	$(".cite").on('click',function(){
+		$(this).hide();
+		$(".mask_layer").hide();
+
+	});
+
+	$(".mask_layer").on('click',function(){
+		$(this).hide();
+		$(".cite").hide();
+		var timer =window.setTimeout(setDisplay,500);
+		function setDisplay(){
+			$(".disappear").attr("style","display:none");
+
+			clearTimeout(timer);
+		}
+	});
+	//计时器，倒计时
+	var sign  = "";
+	if ("{$activity_data.winning_time}" < "{$now_time}"){
+		$("#date_end").html("该商品活动已结束");
+	} else if("{$activity_data.start_time}" > "{$now_time}"){
+		sign ="活动开始";
+		$("#date_end").countDown({
+			sign:sign,
+			txt_id:"date_end",
+			date_time:"{$activity_data.start_time}"
+		});
+	} else if("{$activity_data.winning_time}" > "{$now_time}" && "{$activity_data.end_time}" < "{$now_time}"){
+		sign = "开奖";
+		$("#date_end").countDown({
+			sign:sign,
+			txt_id:"date_end",
+			id : "{$activity_data.id}",
+			url : "{:U('Index/draw_status')}",
+			date_time:"{$activity_data.winning_time}"
+		});
+	} else if("{$activity_data.end_time}" > "{$now_time}" && "{$activity_data.start_time}" < "{$now_time}"){
+		sign = "活动结束";
+		$("#date_end").countDown({
+			sign:sign,
+			txt_id:"date_end",
+			date_time:"{$activity_data.end_time}"
+		});
+	}
+	$("#activity_rules").on("click",function(){
+		$(".product_desc").removeClass("acti");
+		$(".product_intro").addClass("hidden");
+		$(".rules").removeClass("hidden");
+		$(".activity_rules").addClass("acti");
+		$(".product_intro").attr("display","none");
+		$(".rules").attr("display","block");
+	});
+	$(".product_desc").on("click",function(){
+		$(".product_intro").removeClass("hidden");
+		$(".rules").addClass("hidden");
+		$(".activity_rules").removeClass("acti");
+		$(".product_desc").addClass("acti");
+		$(".rules").attr("display","none");
+		$(".product_intro").attr("display","block");
+	});
+</script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?bb58f3cf386e5fb8e63a0a3c3071738f";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>

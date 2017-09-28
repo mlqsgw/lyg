@@ -1,0 +1,12 @@
+[ 2017-03-31T09:17:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-03-31T17:26:30+08:00 ] ::1 /lyg/index.php/a.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:A
+

@@ -1,0 +1,66 @@
+[ 2017-03-27T11:55:05+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-03-27T14:35:49+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-03-27T14:42:54+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-03-27T16:31:25+08:00 ] 127.0.0.1 /sso?return_url=http%3A%2F%2F127.0.0.1%2Findex1.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Sso
+
+[ 2017-03-27T16:32:02+08:00 ] 127.0.0.1 /sso?return_url=http%3A%2F%2F127.0.0.1%2Findex1.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Sso
+
+[ 2017-03-27T16:37:20+08:00 ] 127.0.0.1 /sso?return_url=http%3A%2F%2Fwww.lys.loyoubao.com%2Findex1.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Sso
+
+[ 2017-03-27T16:38:19+08:00 ] 127.0.0.1 /sso?return_url=http%3A%2F%2F127.0.0.1%2Findex1.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Sso
+
+[ 2017-03-27T16:40:25+08:00 ] 127.0.0.1 /sso?return_url=http%3A%2F%2F127.0.0.1%2Findex1.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Sso
+
+[ 2017-03-27T16:40:27+08:00 ] 127.0.0.1 /sso?return_url=http%3A%2F%2F127.0.0.1%2Findex1.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Sso
+
+[ 2017-03-27T20:50:30+08:00 ] 127.0.0.1 /thinkphp/index.php/Home/Index/login?code=f5179ac712eb11e7837fcc81d9816a17&_=1490619029
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:ThinkPHP
+
+[ 2017-03-27T20:50:30+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+

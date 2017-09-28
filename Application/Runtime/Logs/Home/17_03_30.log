@@ -1,0 +1,3006 @@
+[ 2017-03-30T08:21:01+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T08:21:40+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T08:21:43+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '10' ORDER BY create_time LIMIT 5   [ RunTime:0.0030s ]
+
+[ 2017-03-30T08:21:44+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '12' ORDER BY create_time LIMIT 5   [ RunTime:0.0020s ]
+
+[ 2017-03-30T09:16:48+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T09:16:48+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8&code=8a34fe6814e611e7bbc64ff1591b3e5e&_=1490836605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T09:16:52+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '8' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T09:16:55+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8&code=8a34fe6814e611e7bbc64ff1591b3e5e&_=1490836605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T09:17:12+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T09:17:14+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '10' ORDER BY create_time LIMIT 5   [ RunTime:0.0030s ]
+
+[ 2017-03-30T09:17:29+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '12' ORDER BY create_time LIMIT 5   [ RunTime:0.0040s ]
+
+[ 2017-03-30T09:27:06+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '12' ORDER BY create_time LIMIT 5   [ RunTime:0.0030s ]
+
+[ 2017-03-30T12:43:53+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T12:57:24+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T12:57:41+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T12:58:26+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T12:58:35+08:00 ] 127.0.0.1 /Home/Index/purchase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:08:42+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:08:45+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '10' ORDER BY create_time LIMIT 5   [ RunTime:0.0030s ]
+
+[ 2017-03-30T15:08:46+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '12' ORDER BY create_time LIMIT 5   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:08:53+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T15:08:57+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:09:47+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:09:48+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:10:37+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:11:13+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:11:18+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '8' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0040s ]
+
+[ 2017-03-30T15:11:25+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '8' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:12:04+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:12:35+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '8' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:12:39+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:13:44+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:13:48+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '8' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:14:38+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:15:44+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-30T15:15:48+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '8' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0140s ]
+
+[ 2017-03-30T15:16:45+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-03-30T15:16:48+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '8' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0030s ]
+
+[ 2017-03-30T15:17:49+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:17:53+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-03-30T15:18:41+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-03-30T15:18:42+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:18:45+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:18:50+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\",\"00000012\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:19:43+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-30T15:19:45+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: draw_number D:\phpStudy\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 117 行.
+
+[ 2017-03-30T15:20:02+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0070s ]
+
+[ 2017-03-30T15:20:27+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-03-30T15:20:48+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:21:08+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\",\"00000012\",\"00000012\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0060s ]
+
+[ 2017-03-30T15:23:11+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:23:55+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:24:05+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:24:08+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-30T15:24:12+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-30T15:25:38+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:25:40+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:25:51+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:25:53+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:26:32+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:26:34+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\",\"00000012\",\"00000012\",\"00000012\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:26:41+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:27:38+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0070s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-30T15:27:40+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:33:39+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:33:41+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:33:48+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-30T15:34:14+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-03-30T15:34:39+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000009][00000010][00000012]',`surplus_num`='9' WHERE `u_id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-03-30T15:35:06+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:37:50+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:37:53+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+ERR: Think\Model:update_draw_by_id方法不存在！
+
+[ 2017-03-30T15:38:14+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:38:16+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000009][00000010][00000012][00000012]',`surplus_num`='8' WHERE `id` = '22' [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:39:37+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:39:47+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:39:49+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:40:03+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:40:21+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:41:49+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000009][00000010][00000012][00000012][00000012]',`surplus_num`='7' WHERE `id` = 1 [ RunTime:0.0030s ]
+
+[ 2017-03-30T15:42:17+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T15:43:42+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:43:44+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:43:48+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000009][00000010][00000012][00000012][00000012]',`surplus_num`='7' WHERE `id` = '22' [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:45:00+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000009][00000010][00000012][00000012][00000012][00000012]',`surplus_num`='6' WHERE `id` = '22' [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:45:46+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000009][00000010][00000012][00000012][00000012][00000012][00000012]',`surplus_num`='5' WHERE `id` = '22' [ RunTime:0.0070s ]
+SQL: UPDATE `lys_activity` SET `now_code`='00000012' WHERE `id` = '1' [ RunTime:0.0030s ]
+
+[ 2017-03-30T15:47:26+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T15:47:29+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: INSERT INTO `lys_draw` (`u_id`,`activity_id`,`draw_number`,`surplus_num`) VALUES ('1','1','[00000013]','0') [ RunTime:0.0030s ]
+SQL: SELECT `u_id` FROM `lys_draw` WHERE `activity_id` = '1'  [ RunTime:0.0020s ]
+SQL: UPDATE `lys_activity` SET `id`='1',`u_id`='1',`winning_code`='00000010',`now_code`='00000013',`shop_num`='100',`award_num`='50',`market_price`='25',`players_num`='2',`start_time`='2017-03-22 17:23:14',`end_time`='2017-03-22 17:23:20',`create_time`='2017-03-22 11:49:49',`winning_time`='2017-03-28 14:04:49',`property`='4',`is_del`='0' WHERE `id` = '1' [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\",\"00000012\",\"00000012\",\"00000012\",\"00000013\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:47:51+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\",\"00000012\",\"00000012\",\"00000012\",\"00000013\",\"00000014\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:48:56+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"7\":[\"00000006\",\"00000007\",\"00000008\",\"00000009\",\"00000010\",\"00000011\",\"00000012\",\"00000013\",\"00000014\",\"00000015\",\"00000016\"],\"8\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\",\"00000004\"],\"1\":[\"00000008\",\"00000009\",\"00000010\",\"00000012\",\"00000012\",\"00000012\",\"00000013\",\"00000014\",\"00000014\"],\"9\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:49:00+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:51:50+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:52:04+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:52:31+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:53:45+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-30T15:53:48+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:54:19+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:55:45+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-30T15:55:51+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: INSERT INTO `lys_draw` (`u_id`,`activity_id`,`draw_number`,`surplus_num`) VALUES ('1','1','[00000014]','0') [ RunTime:0.0020s ]
+SQL: SELECT `u_id` FROM `lys_draw` WHERE `activity_id` = '1'  [ RunTime:0.0030s ]
+SQL: UPDATE `lys_activity` SET `id`='1',`u_id`='1',`winning_code`='00000010',`now_code`='00000014',`shop_num`='100',`award_num`='50',`market_price`='25',`players_num`='2',`start_time`='2017-03-22 17:23:14',`end_time`='2017-03-22 17:23:20',`create_time`='2017-03-22 11:49:49',`winning_time`='2017-03-28 14:04:49',`property`='4',`is_del`='0' WHERE `id` = '1' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 179 行.
+SQL: UPDATE `lys_record` SET `content`='{\"1\":[\"00000014\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:55:54+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T15:56:18+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:57:40+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:58:40+08:00 ] 127.0.0.1 /Home/Index/transpond
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `lys_draw` SET `surplus_num`='1' WHERE `id` = '26' [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:58:58+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T15:59:05+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '1' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000014][00000015]',`surplus_num`='0' WHERE `id` = '26' [ RunTime:0.0020s ]
+SQL: UPDATE `lys_activity` SET `now_code`='00000015' WHERE `id` = '1' [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"1\":[\"00000014\",\"00000015\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T15:59:09+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-30T15:59:57+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-30T16:00:00+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 8 D:\phpStudy\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 96 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-30T16:00:02+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:01:05+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:01:07+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 12 D:\phpStudy\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 96 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:01:16+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: INSERT INTO `lys_draw` (`u_id`,`activity_id`,`draw_number`,`surplus_num`) VALUES ('1','12','[00000001]','0') [ RunTime:0.0020s ]
+SQL: SELECT `u_id` FROM `lys_draw` WHERE `activity_id` = '12'  [ RunTime:0.0020s ]
+SQL: UPDATE `lys_activity` SET `id`='12',`u_id`=NULL,`winning_code`=NULL,`now_code`='00000001',`shop_num`='11',`award_num`='13',`market_price`='14',`players_num`='1',`start_time`='2017-03-29 16:20:12',`end_time`='2017-03-30 16:20:15',`create_time`='2017-03-29 16:20:20',`winning_time`='2017-03-30 16:20:24',`property`='4',`is_del`='1' WHERE `id` = '12' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"1\":[\"00000014\",\"00000015\"],\"12\":[\"00000001\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:01:19+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T16:01:57+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000001][00000002]',`surplus_num`='0' WHERE `id` = '27' [ RunTime:0.0020s ]
+SQL: UPDATE `lys_activity` SET `now_code`='00000002' WHERE `id` = '12' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"1\":[\"00000014\",\"00000015\"],\"12\":[\"00000001\",\"00000002\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:06:01+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:08:31+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:10:31+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0090s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:14:23+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T16:14:24+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-30T16:14:29+08:00 ] 127.0.0.1 /Home/Index/transpond.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`surplus_num` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `surplus_num`='1' WHERE `id` = '26' [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:14:36+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:14:47+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:14:51+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-30T16:14:59+08:00 ] 127.0.0.1 /Home/Index/transpond.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`surplus_num` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `lys_draw` SET `surplus_num`='2' WHERE `id` = '26' [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:15:02+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:15:03+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:15:32+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-30T16:15:39+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-30T16:15:43+08:00 ] 127.0.0.1 /Home/Index/transpond.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`surplus_num` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `surplus_num`='1' WHERE `id` = '27' [ RunTime:0.0120s ]
+
+[ 2017-03-30T16:15:46+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:15:47+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000001][00000002][00000003]',`surplus_num`='0' WHERE `id` = '27' [ RunTime:0.0030s ]
+SQL: UPDATE `lys_activity` SET `now_code`='00000003' WHERE `id` = '12' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"1\":[\"00000014\",\"00000015\"],\"12\":[\"00000001\",\"00000002\",\"00000003\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:18:01+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T16:18:05+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:18:06+08:00 ] 127.0.0.1 /Home/Index/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:undefined
+
+[ 2017-03-30T16:18:15+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-03-30T16:28:24+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:28:28+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:28:30+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:28:34+08:00 ] 127.0.0.1 /Home/Index/transpond.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `surplus_num`='1' WHERE `id` = '27' [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:28:36+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-30T16:28:39+08:00 ] 127.0.0.1 /Home/Index/get_now_code.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_draw` WHERE `activity_id` = '12' AND `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_draw` SET `draw_number`='[00000001][00000002][00000003][00000004]',`surplus_num`='0' WHERE `id` = '27' [ RunTime:0.0020s ]
+SQL: UPDATE `lys_activity` SET `now_code`='00000004' WHERE `id` = '12' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `lys_record` SET `content`='{\"1\":[\"00000014\",\"00000015\"],\"12\":[\"00000001\",\"00000002\",\"00000003\",\"00000004\"]}' WHERE `u_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:28:40+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T16:29:27+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-03-30T16:29:40+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:29:48+08:00 ] 127.0.0.1 /Home/Index/getMore.html?lastid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` > '9' ORDER BY create_time LIMIT 5   [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:30:48+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-30T16:30:52+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-03-30T16:30:53+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '7' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 7 D:\phpStudy\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 96 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:30:57+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:31:00+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '8' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 8 D:\phpStudy\WWW\thinkphp\Application\Home\Controller\IndexController.class.php 第 96 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-30T16:31:01+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-30T16:31:03+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-30T16:31:08+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 1 ORDER BY create_time LIMIT 2   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `property` = 4 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-30T16:31:39+08:00 ] 127.0.0.1 /Home/Index/purchase.html?activity_id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `phone` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

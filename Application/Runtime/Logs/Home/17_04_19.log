@@ -1,0 +1,3200 @@
+[ 2017-04-19T08:28:58+08:00 ] 127.0.0.1 /lyg/lys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1492561738 AND `is_putaway` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1492561738 AND `end_time` < 1492561738 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1492561738 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1492561738 AND `end_time` > 1492561738 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T08:29:01+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '65' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: now_code D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '65' LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: 65 D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T10:56:29+08:00 ] 127.0.0.1 /lyg/lys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1492570589 AND `is_putaway` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1492570589 AND `end_time` < 1492570589 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1492570589 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1492570589 AND `end_time` > 1492570589 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-19T10:56:36+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: now_code D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T10:58:20+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: now_code D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T10:58:22+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: now_code D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T10:58:49+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: now_code D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T10:58:51+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: now_code D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-19T11:01:00+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: now_code D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+
+[ 2017-04-19T11:07:39+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+NOTIC: [8] Undefined index: now_code D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 169 行.
+
+[ 2017-04-19T11:08:10+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+
+[ 2017-04-19T11:08:43+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+
+[ 2017-04-19T11:08:52+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:05:56+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:07:40+08:00 ] 127.0.0.1 /lyg/lys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+ (trying to connect via tcp://rm-bp10913qhycd944jn.mysql.rds.aliyuncs.com:3306) D:\phpStudy\WWW\lyg\lys\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-04-19T15:08:01+08:00 ] 127.0.0.1 /lyg/lys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T15:08:22+08:00 ] 127.0.0.1 /lyg/lys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:08:22+08:00 ] 127.0.0.1 /lyg/lys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1492585702 AND `is_putaway` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1492585702 AND `end_time` < 1492585702 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1492585702 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1492585702 AND `end_time` > 1492585702 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: activity_data_end_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-19T15:08:26+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:11:19+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:13:06+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:11+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879564
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:16+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879565
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:21+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879566
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:26+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879567
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:31+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879568
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:36+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879569
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879570
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:46+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879571
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:51+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879572
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:13:56+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879573
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:01+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879574
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:06+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879575
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:11+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879576
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:15+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879577
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:20+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879578
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:25+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879579
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:30+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879580
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:36+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879581
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879582
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:46+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:51+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879584
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:14:56+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879585
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:01+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879586
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:06+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879587
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:11+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879588
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:16+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879589
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:21+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879590
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:26+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879591
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:31+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879592
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:36+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879593
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:46+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879595
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:51+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879596
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:15:56+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879597
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:01+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879598
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:06+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879599
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:11+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879600
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:16+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:21+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879602
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:26+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879603
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:31+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879604
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:36+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879606
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:46+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879607
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:51+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879608
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:16:56+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879609
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:01+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879610
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:06+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879611
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:11+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879612
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:16+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879613
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:21+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879614
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:26+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:31+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879616
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:36+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879617
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879618
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:46+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879619
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:51+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879620
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:17:56+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879621
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:01+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:06+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879623
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:11+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879624
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:16+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879625
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:21+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:26+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879627
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:31+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:36+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879629
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:40+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879630
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:45+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879631
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:50+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879632
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:18:56+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879633
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:19:01+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:19:06+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879635
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:19:11+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879636
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:19:16+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879637
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:19:21+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492585879638
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:19:24+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:20:02+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-19T15:21:00+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:22:02+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:22:23+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:23:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:25:26+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:25:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:26:25+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:26:30+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:26:35+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741110
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:26:40+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:26:45+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:26:50+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:26:55+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:00+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:05+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:10+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:15+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:20+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:25+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:30+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:35+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:40+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:45+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/__URL__/Index/draw_status?id=68&_=1492586741124
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__URL__
+
+[ 2017-04-19T15:27:49+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:28:05+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492586869684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:28:10+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492586869685
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:28:15+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492586869686
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:28:20+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492586869687
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:28:25+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492586869688
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:28:30+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492586869689
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:28:35+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492586869690
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:28:40+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492586869691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:28:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-19T15:29:45+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%3C%7B:U('Index/draw_status')%7D%3E?id=68&_=1492586921548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2017-04-19T15:29:50+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%3C%7B:U('Index/draw_status')%7D%3E?id=68&_=1492586921549
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2017-04-19T15:29:55+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%3C%7B:U('Index/draw_status')%7D%3E?id=68&_=1492586921550
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:
+
+[ 2017-04-19T15:30:00+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%3C%7B:U('Index/draw_status')%7D%3E?id=68&_=1492586921551
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:
+
+[ 2017-04-19T15:30:05+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%3C%7B:U('Index/draw_status')%7D%3E?id=68&_=1492586921552
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2017-04-19T15:30:10+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%3C%7B:U('Index/draw_status')%7D%3E?id=68&_=1492586921553
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:
+
+[ 2017-04-19T15:30:15+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%3C%7B:U('Index/draw_status')%7D%3E?id=68&_=1492586921554
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:
+
+[ 2017-04-19T15:30:19+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-19T15:42:48+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-19T15:43:03+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768389
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:04+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768390
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:05+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768391
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:06+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768392
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:07+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768393
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:08+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768394
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:09+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768395
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:10+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768396
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:11+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768397
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:12+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:13+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768399
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:14+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:15+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768401
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:16+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768402
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:17+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768403
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:18+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768404
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:19+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768405
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:20+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768406
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:21+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768407
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:22+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768408
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:23+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:24+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768410
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:25+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768411
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:26+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:27+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:28+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768414
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:29+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768415
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:30+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768416
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:31+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768417
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:32+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768418
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:33+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/%7B:U('Index/draw_status')%7D?id=68&_=1492587768419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:{:U('Index
+
+[ 2017-04-19T15:43:34+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:46:44+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:47:12+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-19T15:47:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032288
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:47:46+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032289
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-19T15:47:53+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032290
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-19T15:48:03+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032291
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-19T15:48:39+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032292
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-19T15:48:42+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032293
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-19T15:48:44+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032294
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-04-19T15:48:52+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032295
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-19T15:48:53+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032296
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-04-19T15:48:55+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588032297
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-04-19T15:48:57+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:50:16+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:50:27+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216828
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:28+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216829
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:29+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216830
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:30+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216831
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:31+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216832
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-04-19T15:50:32+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216833
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-04-19T15:50:33+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216834
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-04-19T15:50:34+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216835
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-04-19T15:50:35+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:36+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216837
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-19T15:50:37+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:38+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:39+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:40+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216841
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:41+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:42+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216843
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:43+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216844
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-04-19T15:50:44+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216845
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:45+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216846
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-19T15:50:46+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216847
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:47+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216848
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-04-19T15:50:48+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216849
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-04-19T15:50:49+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216850
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-04-19T15:50:50+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216851
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-04-19T15:50:51+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216852
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-04-19T15:50:52+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216853
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-04-19T15:50:53+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216854
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:54+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216855
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:55+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216856
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-19T15:50:56+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216857
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:50:57+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-19T15:50:58+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-04-19T15:50:59+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216860
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:51:00+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216861
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:51:01+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216862
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-04-19T15:51:02+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588216863
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-04-19T15:51:03+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:51:27+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588263838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-19T15:51:33+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588263839
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-19T15:51:35+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588263840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-19T15:52:00+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588263841
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-19T15:52:01+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0050s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:52:27+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:52:34+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/draw_status.html?id=68&_=1492588348023
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-04-19T15:52:34+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0060s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T15:54:49+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T16:15:25+08:00 ] 127.0.0.1 /lyg/lys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1492589725 AND `is_putaway` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1492589725 AND `end_time` < 1492589725 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1492589725 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1492589725 AND `end_time` > 1492589725 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: activity_data_end_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-04-19T16:15:29+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T16:38:46+08:00 ] 127.0.0.1 /lyg/lys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+ (trying to connect via tcp://rm-bp10913qhycd944jn.mysql.rds.aliyuncs.com:3306) D:\phpStudy\WWW\lyg\lys\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-04-19T16:38:47+08:00 ] 127.0.0.1 /lyg/lys/Home/Index/purchase.html?activity_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `id` = '68' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: description D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 168 行.
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `lxtx_users` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_record` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_record` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lys_draw` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`surplus_num`,`is_share` FROM `lys_draw` WHERE `u_id` = 1 AND `activity_id` = '68' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T16:38:47+08:00 ] 127.0.0.1 /lyg/lys/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1492591127 AND `is_putaway` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1492591127 AND `end_time` < 1492591127 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1492591127 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1492591127 AND `end_time` > 1492591127 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: activity_data_end_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T16:38:47+08:00 ] 127.0.0.1 /lyg/lys/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1492591127 AND `is_putaway` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1492591127 AND `end_time` < 1492591127 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1492591127 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1492591127 AND `end_time` > 1492591127 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: activity_data_end_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-19T16:43:37+08:00 ] 127.0.0.1 /lyg/lys/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1492591417 AND `is_putaway` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1492591417 AND `end_time` < 1492591417 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1492591417 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1492591417 AND `end_time` > 1492591417 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: activity_data_end_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-19T16:47:29+08:00 ] 127.0.0.1 /lyg/lys/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lys_activity` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lxtx_products` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` < 1492591649 AND `is_putaway` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`product_name`,`cover` FROM `lxtx_products` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `winning_time` > 1492591649 AND `end_time` < 1492591649 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` > 1492591649 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lys_activity` WHERE `start_time` < 1492591649 AND `end_time` > 1492591649 AND `is_putaway` = 1 ORDER BY id desc  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: activity_data_await_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 98 行.
+NOTIC: [8] Undefined variable: activity_data_start_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Undefined variable: activity_data_end_time D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [2] implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed D:\phpStudy\WWW\lyg\lys\Application\Home\Controller\IndexController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
